@@ -1,0 +1,5 @@
+# Terraform state can contain secrets. It lives in S3, never in Git.
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
